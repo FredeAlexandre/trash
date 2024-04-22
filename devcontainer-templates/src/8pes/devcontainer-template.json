@@ -1,0 +1,16 @@
+{
+  "id": "8pes",
+  "version": "0.1.2",
+  "name": "8pes devcontainer",
+  "description": "The official 8pes template devcontainer",
+  "documentationURL": "https://github.com/FredeAlexandre/devcontainer-templates/tree/main/src/8pes",
+  "publisher": "Alexandre Frede",
+  "licenseURL": "https://github.com/devcontainers/templates/blob/main/LICENSE",
+  "options": {
+    "username": {
+      "type": "string",
+      "description": "The username you own in the devcontainer",
+      "default": "kingkong"
+    }
+  }
+}

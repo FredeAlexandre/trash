@@ -1,0 +1,3 @@
+- from the ccd reference verify with the cid the references. Say if it is valid
+- for the comparaison show the raw value and the cid value "Out of IMA scope"
+- if the reference is considered as full when there is J{0-9}{a-Z}

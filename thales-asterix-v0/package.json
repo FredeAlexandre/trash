@@ -1,0 +1,11 @@
+{
+  "name": "asterix",
+  "type": "module",
+  "workspaces": ["packages/*", "tooling/*", "apps/*"],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

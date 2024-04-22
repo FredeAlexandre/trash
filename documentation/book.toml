@@ -1,0 +1,6 @@
+[book]
+authors = ["Alexandre Frede"]
+language = "en"
+multilingual = false
+src = "src"
+title = "IMA Documentation"

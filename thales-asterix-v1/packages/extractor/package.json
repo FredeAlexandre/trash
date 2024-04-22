@@ -1,0 +1,10 @@
+{
+  "name": "@asterix/extractor",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.2.2",
+    "exceljs": "^4.4.0"
+  }
+}
