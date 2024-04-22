@@ -1,0 +1,48 @@
+{
+  "name": "@cod/sprite-maker",
+  "version": "0.1.0",
+  "private": true,
+  "bin": {
+    "sprite-maker": "./bin/sprite-maker.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "exports": {
+    ".": "./src/index.ts",
+    "./utils/concat": "./src/utils/concat.ts",
+    "./utils/layout": "./src/utils/layout.ts",
+    "./utils/translate": "./src/utils/translate.ts"
+  },
+  "scripts": {
+    "build": "esbuild ./src/bin/sprite-maker.ts --bundle --platform=node --outfile=./bin/sprite-maker.js",
+    "clean": "rimraf .turbo node_modules",
+    "format": "prettier --check . --ignore-path ../../.gitignore",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@cod/eslint-config": "workspace:^",
+    "@cod/prettier-config": "workspace:^",
+    "@cod/tsconfig": "workspace:^",
+    "esbuild": "^0.20.2",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@cod/eslint-config/base"
+    ]
+  },
+  "prettier": "@cod/prettier-config",
+  "peerDependencies": {
+    "sharp": "^0.33.3"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "zod": "^3.22.4"
+  }
+}

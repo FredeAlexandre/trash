@@ -1,0 +1,4 @@
+packages:
+  - hardhat
+  - ponder
+  - nextjs

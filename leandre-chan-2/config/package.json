@@ -1,0 +1,16 @@
+{
+  "name": "@acme/config",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./chains/dev": "./chains/dev.ts",
+    "./chains/prod": "./chains/prod.ts",
+    "./chains/stage": "./chains/stage.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit --exclude "
+  },
+  "dependencies": {
+    "viem": "^2.9.5"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@cod/minecraft",
+  "version": "0.1.0",
+  "private": true,
+  "files": [
+    "./src/**/*.png"
+  ],
+  "scripts": {
+    "build": "tsx ./build.ts generate ./src/tiles"
+  },
+  "devDependencies": {
+    "@cod/tsconfig": "workspace:^",
+    "@types/node": "^20.11.30",
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "sharp": "^0.33.3",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2",
+    "zod": "^3.22.4"
+  }
+}

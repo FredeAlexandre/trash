@@ -1,0 +1,27 @@
+{
+  "name": "river",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "clean": "git clean -xdf node_modules",
+    "clean:all": "turbo clean",
+    "dev": "turbo dev --parallel",
+    "format": "turbo format --continue -- --cache --cache-location node_modules/.cache/.prettiercache",
+    "format:fix": "turbo format --continue -- --write --cache --cache-location node_modules/.cache/.prettiercache",
+    "lint": "turbo lint --continue -- --cache --cache-location node_modules/.cache/.eslintcache",
+    "lint:fix": "turbo lint --continue -- --fix --cache --cache-location node_modules/.cache/.eslintcache",
+    "lint:ws": "sherif",
+    "postinstall": "pnpm lint:ws",
+    "typecheck": "turbo typecheck"
+  },
+  "devDependencies": {
+    "@asterix/prettier-config": "workspace:^",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.5",
+    "sherif": "^0.8.1",
+    "turbo": "^1.13.2",
+    "typescript": "^5.4.2"
+  },
+  "packageManager": "pnpm@8.15.5",
+  "prettier": "@asterix/prettier-config"
+}

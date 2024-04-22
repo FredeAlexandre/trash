@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "format": "biome format . --write",
+    "lint": "biome check .",
+    "lint:fix": "pnpm lint --apply && pnpm lint:ws --fix",
+    "lint:ws": "pnpm sherif",
+    "typecheck": "pnpm --parallel typecheck"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.6.3",
+    "sherif": "^0.8.1"
+  },
+  "packageManager": "pnpm@8.15.5"
+}

@@ -1,0 +1,11 @@
+{
+  "solidity.compileUsingRemoteVersion": "v0.8.24+commit.e11b9ed9",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.codeActionsOnSave": {
+      "quickfix.biome": "explicit",
+      "source.organizeImports.biome": "explicit"
+    }
+  }
+}

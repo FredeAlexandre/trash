@@ -1,0 +1,3 @@
+- Passer version web a appication pour pouvoir acceder au fichier
+- Commencer a creer un jeux de donnees
+- Fixer les problemes de typage
