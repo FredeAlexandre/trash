@@ -1,0 +1,12 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "eslint.validate": ["typescript"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "conventionalCommits.scopes": ["vercel"]
+}
